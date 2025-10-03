@@ -1,0 +1,9 @@
+send a file on server // code execution on a server
+local file :- .com/index.php?referee=login.php // any parameter = loacal file
+remote file :- . com/share=hhtps://facebooo.com/status?I'd=1234 // any parameter = remoteweb.com/file
+
+
+
+
+
+
