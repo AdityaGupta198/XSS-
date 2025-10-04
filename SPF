@@ -1,0 +1,2 @@
+SPF (Sender Policy Framework) is a DNS TXT record that lists which mail servers are authorized to send email for a domain, used by receivers to detect and block spoofed mail. 
+
