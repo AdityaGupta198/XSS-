@@ -1,5 +1,5 @@
 send a file on server // code execution on a server
-local file :- .com/index.php?referee=login.php // any parameter = loacal file
+local file :- .com/index.php?referee=login.php // any parameter = local file
 remote file :- . com/share=hhtps://facebook.com/status?I'd=1234 // any parameter = remoteweb.com/file
 
 LFI Hunting (local file Inclusion)
@@ -23,7 +23,7 @@ LFT payload (https://drive.google.com/file/d/1mjvLqbkYEH2FYWFHS_F34aTQfHjYMzMh/v
 
 
 RFI(remote File Inclusion )
-dusra website a Containt load kar na 
+dusra website a Content load kar na 
 ex:- http://example.com/admin/index.php?page=http://example.com/exam.html 
 
 possible parameter of RFI :- ['dest','redirect','uri', 'path', 'continue','url','window','next','data','re ference', 'site', 'html', 'val','validate',
