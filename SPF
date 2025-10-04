@@ -2,3 +2,11 @@ SPF (Sender Policy Framework) is a DNS TXT record that lists which mail servers
 are authorized to send email for a domain, used by receivers to detect and block spoofed mail. 
 
 if spf comes it means domain in not Vurnable
+
+tools :- https://www.kitterman.com/spf/validate.html
+       https://mxtoolbox.com/    :- spf://example.com
+
+mail :- https://anonymousemail.me/ :- if Website has not find SFT record then use mail as there name 
+
+ Ceo       rosh@example.com      target@gmail.com
+  
