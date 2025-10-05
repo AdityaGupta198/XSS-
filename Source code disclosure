@@ -1,0 +1,16 @@
+Source code disclosure is a security vulnerability where server-side source code is unexpectedly exposed to users or unauthorized parties, 
+often due to misconfigurations or application flaws. This disclosure can lead to attackers gaining sensitive information, such as database credentials, 
+administrative access, or detailed knowledge of the application's logic, which enables them to launch further attacks.
+
+
+
+
+
+
+
+
+
+
+
+
+
