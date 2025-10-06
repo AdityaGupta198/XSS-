@@ -1,0 +1,17 @@
+CORS, or Cross-Origin Resource Sharing, is a web security mechanism that allows browsers
+to permit a web page from one domain (the "origin") to access restricted resources from a different domain
+
+
+seach this :-
+Access-Control-Allow-Origin: http://www.evil.com
+Access-Control-Allow-Origin: *
+
+
+add 
+origin : http://bing.com 
+        or
+origin : null
+
+
+
+
